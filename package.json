@@ -1,0 +1,36 @@
+{
+  "name": "@tleef/react-native-interactable",
+  "version": "1.0.0",
+  "main": "lib/Interactable.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --fix --project .",
+    "format": "prettier \"src/**/*.ts*\" --write",
+    "prepare": "yarn build"
+  },
+  "repository": "git+https://github.com/tleef/react-native-interactable.git",
+  "author": "Tom Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tleef/react-native-interactable/issues"
+  },
+  "homepage": "https://github.com/tleef/react-native-interactable#readme",
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-native": "^0.57.60",
+    "prettier": "^1.17.1",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-reanimated": "^1.2.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.5.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": "*"
+  },
+  "dependencies": {
+    "@tleef/react-native-reanimated-utils": "^1.0.0"
+  }
+}
