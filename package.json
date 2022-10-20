@@ -20,7 +20,7 @@
     "@types/react-native": "^0.57.60",
     "prettier": "^1.17.1",
     "react-native-gesture-handler": "^1.4.1",
-    "react-native-reanimated": "^1.2.0",
+    "react-native-reanimated": "^2.10.0",
     "tslint": "^5.16.0",
     "typescript": "^3.5.1"
   },
